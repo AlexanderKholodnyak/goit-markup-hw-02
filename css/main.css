@@ -109,6 +109,9 @@ h3.down {
 address {
   font-style: normal;
 }
+address p {
+  color: var(--primary-white-color);
+}
 .link-color a {
   font-family: Roboto;
   font-weight: 400;

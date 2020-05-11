@@ -109,7 +109,13 @@ h3.down {
 address {
   font-style: normal;
 }
-address p {
+/* Не работает! */
+/* address:first-child {
+  color: var(--primary-white-color);
+} */
+
+/* Работает */
+address p:first-child {
   color: var(--primary-white-color);
 }
 .link-color a {
